@@ -1,0 +1,47 @@
+/* Sticky transparent header */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  color: white;
+  z-index: 1000;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+/* Main container */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #00f2ff; 
+}
+

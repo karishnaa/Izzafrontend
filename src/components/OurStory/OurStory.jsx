@@ -6,6 +6,7 @@ function OurStory() {
       <div className="content-wrapper">
         <div className="text-content">
         <h2>OUR STORY</h2>
+        {/* Mirroing section layout to aligin with the design and image directly */}
         <p>
           Phasellus ultrices, massa vel commodo maximus, ex metus accumsan ante, id maximus turpis augue id lacus. 
           Nullam porttitor mauris nec fermentum fermentum. Pellentesque habitant morbi
@@ -17,10 +18,7 @@ function OurStory() {
         </div>
 
         <div className="image-section">
-          <img 
-            src="src/assets/img/asignpostimage.jpg" 
-            alt="Pizza being made in our kitchen"
-          />
+          <img src="/assets/asignpostimage.jpg" alt="Pizza being made in our kitchen"/>
         </div>
       </div>
     </section>

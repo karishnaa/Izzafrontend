@@ -12,8 +12,9 @@ function Menu() {
           <button className="menu-tab">Dessert</button>
           <button className="menu-tab">Drinks</button>
         </div>
-        
+        {/* menu item grid */}
         <div className="menu-grid">
+          {/* menu card */}
           <div className="menu-card">
             <div className="menu-img">
               <img src="/assets/bpizzaimage.jpg" alt="Pizza" />
